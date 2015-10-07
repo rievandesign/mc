@@ -1,0 +1,51 @@
+<saml2p:Response ID="_d645f885-b6b9-4712-ba57-0b3cab551fab" Version="2.0"
+    IssueInstant="2015-07-27T15:12:16.155Z" xmlns:saml2p="urn:oasis:names:tc:SAML:2.0:protocol">
+    <saml2p:Status>
+        <saml2p:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"/>
+        <saml2p:StatusMessage>Success</saml2p:StatusMessage>
+    </saml2p:Status>
+    <saml2:Assertion Version="2.0" 
+        IssueInstant="2015-07-27T15:12:16.141Z" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">
+        <saml2:Issuer Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified"
+            >modglininc.com</saml2:Issuer>
+        <saml2:Subject>
+            <saml2:NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified"
+                >04.MAA.FL*.813.229</saml2:NameID>
+            <saml2:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:sender-vouches">
+                <saml2:NameID>CN=modglininc.com,OU=Domain Control Validated</saml2:NameID>
+            </saml2:SubjectConfirmation>
+        </saml2:Subject>
+        <saml2:Conditions NotBefore="2015-07-26T14:12:16.141Z"
+            NotOnOrAfter="2015-08-29T16:12:16.141Z"/>
+        <saml2:AttributeStatement>
+            <saml2:Attribute Name="State Exchange Code"
+                NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified">
+                <saml2:AttributeValue>FL0</saml2:AttributeValue>
+            </saml2:Attribute>
+            <saml2:Attribute Name="Partner Assigned Consumer ID"
+                NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified">
+                <saml2:AttributeValue>eeeeeee-d5ee-11e2-8b8b</saml2:AttributeValue>
+            </saml2:Attribute>
+            <saml2:Attribute Name="User Type"
+                NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified">
+                <saml2:AttributeValue>Broker</saml2:AttributeValue>
+            </saml2:Attribute>
+            <saml2:Attribute Name="Transfer Type"
+                NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified">
+                <saml2:AttributeValue>Direct Enrollment</saml2:AttributeValue>
+            </saml2:Attribute>
+			<saml2:Attribute Name="FFE User ID" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"> 
+				<saml2:AttributeValue>alex.modglin</saml2:AttributeValue>
+			</saml2:Attribute>
+            <saml2:Attribute Name="Return URL"
+                NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified">
+                <saml2:AttributeValue>http://dev.enrollmyself.com/saml/response</saml2:AttributeValue>
+            </saml2:Attribute>
+        </saml2:AttributeStatement>
+        <saml2:AuthnStatement AuthnInstant="2015-07-27T15:12:16.141Z">
+			<saml2:AuthnContext>
+                <saml2:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:Password</saml2:AuthnContextClassRef>
+            </saml2:AuthnContext>
+        </saml2:AuthnStatement>
+    </saml2:Assertion>
+</saml2p:Response>
